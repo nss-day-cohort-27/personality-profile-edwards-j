@@ -29,7 +29,7 @@ for (key in personalityData.general) {
             generalDiv.innerHTML += `<p class="flex-item">I agree with the statement "${statement}"</p>`;
             general.appendChild(generalDiv)
         } else {
-            generalDiv.innerHTML += `<p class="flex-item">I don't agree with the statement" ${statement}" because ${why}</p>`;
+            generalDiv.innerHTML += `<p class="flex-item">I don't agree with the statement "${statement}" because ${why}</p>`;
             general.appendChild(generalDiv)
         }
     }
