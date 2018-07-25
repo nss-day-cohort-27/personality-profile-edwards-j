@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-decoration: underline
+}
+
+body {
+    background-color: #db553e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.wrapper {
+    margin: 0 1em;
+}
+
+.flex {
+    display: flex;
+}
+
+.right {
+    justify-content: flex-end;
+    text-align: right
+}
+
+.bg-red {
+    background-color: tomato;
+    margin: 1em 0;
+    border-radius: 5px;
+    padding: 0 2em;
+    color: white
+}
